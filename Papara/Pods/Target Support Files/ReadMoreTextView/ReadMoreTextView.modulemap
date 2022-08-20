@@ -1,0 +1,6 @@
+module ReadMoreTextView {
+  umbrella header "ReadMoreTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
