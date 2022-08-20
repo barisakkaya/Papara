@@ -13,9 +13,13 @@
 		E4A56B0528B133A900FC8BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0328B133A900FC8BC6 /* Main.storyboard */; };
 		E4A56B0728B133AA00FC8BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0628B133AA00FC8BC6 /* Assets.xcassets */; };
 		E4A56B0A28B133AA00FC8BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0828B133AA00FC8BC6 /* LaunchScreen.storyboard */; };
+		F5D82C825A5020CFF4ECA1BC /* libPods-Papara.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B31F7027543905A1104BEE3 /* libPods-Papara.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papara.release.xcconfig"; path = "Target Support Files/Pods-Papara/Pods-Papara.release.xcconfig"; sourceTree = "<group>"; };
+		21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papara.debug.xcconfig"; path = "Target Support Files/Pods-Papara/Pods-Papara.debug.xcconfig"; sourceTree = "<group>"; };
+		6B31F7027543905A1104BEE3 /* libPods-Papara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Papara.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A56AFA28B133A900FC8BC6 /* Papara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Papara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A56AFD28B133A900FC8BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A56AFF28B133A900FC8BC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D82C825A5020CFF4ECA1BC /* libPods-Papara.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871B5917A028903F85C34C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */,
+				1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4A56AF128B133A900FC8BC6 = {
 			isa = PBXGroup;
 			children = (
 				E4A56AFC28B133A900FC8BC6 /* Papara */,
 				E4A56AFB28B133A900FC8BC6 /* Products */,
+				871B5917A028903F85C34C9C /* Pods */,
+				FC0503475A757863139D2ED7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +140,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		FC0503475A757863139D2ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B31F7027543905A1104BEE3 /* libPods-Papara.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A56B0E28B133AA00FC8BC6 /* Build configuration list for PBXNativeTarget "Papara" */;
 			buildPhases = (
+				75F0FDAA180F9D740B93D06C /* [CP] Check Pods Manifest.lock */,
 				E4A56AF628B133A900FC8BC6 /* Sources */,
 				E4A56AF728B133A900FC8BC6 /* Frameworks */,
 				E4A56AF828B133A900FC8BC6 /* Resources */,
+				DA4636F01A8099E231F56EE8 /* [CP] Embed Pods Frameworks */,
+				BA9E4973FB0707D513AA06F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +216,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F0FDAA180F9D740B93D06C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Papara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9E4973FB0707D513AA06F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4636F01A8099E231F56EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4A56AF628B133A900FC8BC6 /* Sources */ = {
@@ -338,6 +425,7 @@
 		};
 		E4A56B0F28B133AA00FC8BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,6 +455,7 @@
 		};
 		E4A56B1028B133AA00FC8BC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

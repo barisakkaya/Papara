@@ -1,0 +1,6 @@
+module Pods_Papara {
+  umbrella header "Pods-Papara-umbrella.h"
+
+  export *
+  module * { export * }
+}
