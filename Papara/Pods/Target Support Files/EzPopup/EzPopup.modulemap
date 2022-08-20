@@ -1,0 +1,6 @@
+module EzPopup {
+  umbrella header "EzPopup-umbrella.h"
+
+  export *
+  module * { export * }
+}

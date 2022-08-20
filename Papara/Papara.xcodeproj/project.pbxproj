@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4A56AFE28B133A900FC8BC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A56AFD28B133A900FC8BC6 /* AppDelegate.swift */; };
+		E4A56B0028B133A900FC8BC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A56AFF28B133A900FC8BC6 /* SceneDelegate.swift */; };
+		E4A56B0228B133A900FC8BC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A56B0128B133A900FC8BC6 /* ViewController.swift */; };
+		E4A56B0528B133A900FC8BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0328B133A900FC8BC6 /* Main.storyboard */; };
+		E4A56B0728B133AA00FC8BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0628B133AA00FC8BC6 /* Assets.xcassets */; };
+		E4A56B0A28B133AA00FC8BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A56B0828B133AA00FC8BC6 /* LaunchScreen.storyboard */; };
+		F5D82C825A5020CFF4ECA1BC /* libPods-Papara.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B31F7027543905A1104BEE3 /* libPods-Papara.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papara.release.xcconfig"; path = "Target Support Files/Pods-Papara/Pods-Papara.release.xcconfig"; sourceTree = "<group>"; };
+		21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papara.debug.xcconfig"; path = "Target Support Files/Pods-Papara/Pods-Papara.debug.xcconfig"; sourceTree = "<group>"; };
+		6B31F7027543905A1104BEE3 /* libPods-Papara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Papara.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A56AFA28B133A900FC8BC6 /* Papara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Papara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A56AFD28B133A900FC8BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4A56AFF28B133A900FC8BC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4A56B0128B133A900FC8BC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4A56B0428B133A900FC8BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4A56B0628B133AA00FC8BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4A56B0928B133AA00FC8BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A56B0B28B133AA00FC8BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4A56AF728B133A900FC8BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D82C825A5020CFF4ECA1BC /* libPods-Papara.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		871B5917A028903F85C34C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */,
+				1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4A56AF128B133A900FC8BC6 = {
+			isa = PBXGroup;
+			children = (
+				E4A56AFC28B133A900FC8BC6 /* Papara */,
+				E4A56AFB28B133A900FC8BC6 /* Products */,
+				871B5917A028903F85C34C9C /* Pods */,
+				FC0503475A757863139D2ED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A56AFB28B133A900FC8BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A56AFA28B133A900FC8BC6 /* Papara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4A56AFC28B133A900FC8BC6 /* Papara */ = {
+			isa = PBXGroup;
+			children = (
+				E4A56B1728B1351B00FC8BC6 /* Utilities */,
+				E4A56B1628B1351000FC8BC6 /* AppDelegate */,
+				E4A56B1528B1344800FC8BC6 /* ViewModels */,
+				E4A56B1428B1342D00FC8BC6 /* Models */,
+				E4A56B1328B1341300FC8BC6 /* Controllers */,
+				E4A56B1228B1340A00FC8BC6 /* Views */,
+				E4A56B1128B133FF00FC8BC6 /* Storyboards */,
+				E4A56AFD28B133A900FC8BC6 /* AppDelegate.swift */,
+				E4A56AFF28B133A900FC8BC6 /* SceneDelegate.swift */,
+				E4A56B0128B133A900FC8BC6 /* ViewController.swift */,
+				E4A56B0628B133AA00FC8BC6 /* Assets.xcassets */,
+				E4A56B0B28B133AA00FC8BC6 /* Info.plist */,
+			);
+			path = Papara;
+			sourceTree = "<group>";
+		};
+		E4A56B1128B133FF00FC8BC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E4A56B0328B133A900FC8BC6 /* Main.storyboard */,
+				E4A56B0828B133AA00FC8BC6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E4A56B1228B1340A00FC8BC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4A56B1328B1341300FC8BC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4A56B1428B1342D00FC8BC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4A56B1528B1344800FC8BC6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4A56B1628B1351000FC8BC6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E4A56B1728B1351B00FC8BC6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FC0503475A757863139D2ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B31F7027543905A1104BEE3 /* libPods-Papara.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4A56AF928B133A900FC8BC6 /* Papara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A56B0E28B133AA00FC8BC6 /* Build configuration list for PBXNativeTarget "Papara" */;
+			buildPhases = (
+				75F0FDAA180F9D740B93D06C /* [CP] Check Pods Manifest.lock */,
+				E4A56AF628B133A900FC8BC6 /* Sources */,
+				E4A56AF728B133A900FC8BC6 /* Frameworks */,
+				E4A56AF828B133A900FC8BC6 /* Resources */,
+				DA4636F01A8099E231F56EE8 /* [CP] Embed Pods Frameworks */,
+				BA9E4973FB0707D513AA06F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Papara;
+			productName = Papara;
+			productReference = E4A56AFA28B133A900FC8BC6 /* Papara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A56AF228B133A900FC8BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E4A56AF928B133A900FC8BC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E4A56AF528B133A900FC8BC6 /* Build configuration list for PBXProject "Papara" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4A56AF128B133A900FC8BC6;
+			productRefGroup = E4A56AFB28B133A900FC8BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A56AF928B133A900FC8BC6 /* Papara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4A56AF828B133A900FC8BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A56B0A28B133AA00FC8BC6 /* LaunchScreen.storyboard in Resources */,
+				E4A56B0728B133AA00FC8BC6 /* Assets.xcassets in Resources */,
+				E4A56B0528B133A900FC8BC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F0FDAA180F9D740B93D06C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Papara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9E4973FB0707D513AA06F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4636F01A8099E231F56EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Papara/Pods-Papara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4A56AF628B133A900FC8BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A56B0228B133A900FC8BC6 /* ViewController.swift in Sources */,
+				E4A56AFE28B133A900FC8BC6 /* AppDelegate.swift in Sources */,
+				E4A56B0028B133A900FC8BC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4A56B0328B133A900FC8BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A56B0428B133A900FC8BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4A56B0828B133AA00FC8BC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A56B0928B133AA00FC8BC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4A56B0C28B133AA00FC8BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4A56B0D28B133AA00FC8BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4A56B0F28B133AA00FC8BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CDF7F23338BCBD6A7D17A1 /* Pods-Papara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 678R2482N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Papara/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bariscanakkaya.Papara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E4A56B1028B133AA00FC8BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C48191075870038BD174747 /* Pods-Papara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 678R2482N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Papara/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bariscanakkaya.Papara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A56AF528B133A900FC8BC6 /* Build configuration list for PBXProject "Papara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A56B0C28B133AA00FC8BC6 /* Debug */,
+				E4A56B0D28B133AA00FC8BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A56B0E28B133AA00FC8BC6 /* Build configuration list for PBXNativeTarget "Papara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A56B0F28B133AA00FC8BC6 /* Debug */,
+				E4A56B1028B133AA00FC8BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4A56AF228B133A900FC8BC6 /* Project object */;
+}

@@ -1,0 +1,87 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.0'
+
+use_modular_headers!
+
+def firebase_core
+    pod 'Firebase/Core', '~> 8.10 '
+end
+
+def kf
+  pod 'Kingfisher', '~> 4.0'
+end
+
+def better_segmented_control
+    pod 'BetterSegmentedControl', '~> 1.2'
+end
+
+def crypto_swift
+    pod 'CryptoSwift', '~> 1.4.0'
+end
+
+def bryx_banner
+    pod 'BRYXBanner'
+end
+
+def dynamic_codable
+    pod 'DynamicCodable', '1.0'
+end
+
+def ez_popup
+    pod 'EzPopup', '1.2'
+end
+
+def pop
+    pod 'pop', '1.0.9'
+end
+
+def ttt_attributed_label
+    pod 'TTTAttributedLabel'
+end
+
+
+def alamofire
+    pod 'Alamofire', '~> 5.4.0'
+end
+
+
+main_targets = ['Papara']
+
+main_targets.each do |t|
+    target t do
+        kf
+        firebase_core
+        better_segmented_control
+        crypto_swift
+        bryx_banner
+        dynamic_codable
+        ez_popup
+        pop
+        ttt_attributed_label
+        pod 'MMDrawerController+Storyboard'
+	pod 'ActionSheetPicker-3.0'
+        pod 'Firebase/RemoteConfig'
+        pod 'Firebase/Messaging'
+        pod 'Firebase/Crashlytics'
+        pod 'Firebase/Analytics'
+        pod 'Firebase/DynamicLinks'
+        pod 'PopupDialog'
+        pod 'Sentry'
+        pod 'FBSDKLoginKit', '~> 12.2.1'
+        pod 'FBSDKCoreKit', '~> 12.2.1'
+        pod 'GoogleSignIn', '~> 6.0.2'
+        pod 'lottie-ios', '~> 3.1.3'
+        pod 'ReadMoreTextView'
+        pod 'FSPagerView'
+        pod 'ScrollingPageControl'
+        alamofire
+        pod 'SSZipArchive'
+      pod 'NYTPhotoViewer'
+      pod 'PureLayout'
+      pod 'GooglePlaces'
+      pod 'FCUUID'
+      pod 'Charts'
+      pod 'AnyCodable-FlightSchool', '~> 0.6.0'
+      pod 'IQKeyboardManagerSwift'
+    end
+end
